@@ -1,0 +1,9 @@
+configure cuda + cuddnn for gtx 1660 
+pip freeze > packages.txt && pip uninstall -y -r packages.txt && del packages.txt
+pip install jupyter
+jupyter notebook
+pip install tensorflow==2.10.0
+pip install pandas
+pip install scikit-learn
+pip install opencv-python
+pip install matplotlib
